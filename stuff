@@ -1,7 +1,1 @@
-#!ipxe
-dhcp net0
-
-set base-url http://archive.ubuntu.com/ubuntu/dists/focal/main/installer-amd64/current/legacy-images/netboot/ubuntu-installer/amd64/
-kernel ${base-url}/linux console=ttyS1,115200n8
-initrd ${base-url}/initrd.gz
-boot
+sanboot https://releases.ubuntu.com/20.04.2/ubuntu-20.04.2-live-server-amd64.iso
